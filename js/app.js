@@ -168,3 +168,22 @@ function overlayPanelHideOnLoad() {
 }
 //hide overlay on load
 overlayPanelHideOnLoad();
+
+///////////////////////////
+// Search directory 
+function searchEmpDir() {
+  let input, filter, ul, li, a, i;
+  input = document.getElementById('searchDir');
+  filter = input.value.toUpperCase();
+  main = document.querySelector('.panel__grid');
+  divPanels = main.querySelectorAll('.panel');
+  for (i = 0; i < divPanels.length; i++) {
+    h3 = divPanels[i].getElementsByTagName('H3')[0];
+    if (h3.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      divPanels[i].style.display = '';
+    } else {
+      divPanels[i].style.display = 'none';
+
+    }
+  }
+}
