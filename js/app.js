@@ -170,7 +170,7 @@ function overlayPanelHideOnLoad() {
 overlayPanelHideOnLoad();
 
 ///////////////////////////
-// Search directory 
+// Search directory
 function searchEmpDir() {
   let input, filter, ul, li, a, i;
   input = document.getElementById('searchDir');

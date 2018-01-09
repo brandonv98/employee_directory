@@ -1,5 +1,5 @@
 body {
-  background-color: #191745;
+  background-color: rgba(56, 56, 56, 0.9);
   max-width: 100%;
   min-width: 300px;
 }
@@ -14,6 +14,14 @@ p {
   margin-left: .9em;
 }
 
+.logo--modifier {
+  margin-top: .5em;
+  border-bottom: 1px solid #F8931F;
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+}
+
 .header {
   text-align: center;
 }
@@ -23,10 +31,11 @@ p {
   padding: 1em;
   width: 80%;
   font-weight: bolder;
+  border-radius: 5px;
 }
 
 .panel {
-  border: 3px solid orange;
+  border: 3px solid #F8931F;
   border-radius: 5px;
   background-color: #fff;
   max-width: 100%;
