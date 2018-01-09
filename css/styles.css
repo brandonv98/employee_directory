@@ -1,5 +1,5 @@
 body {
-  background-color: #FCFCFC;
+  background-color: #191745;
   max-width: 100%;
   min-width: 300px;
 }
@@ -9,7 +9,7 @@ p {
 }
 
 .main__header {
-  color: gray;
+  color: white;
   margin-top: 2em;
   margin-left: .9em;
 }
@@ -26,7 +26,7 @@ p {
 }
 
 .panel {
-  border: 2px solid lightgray;
+  border: 3px solid orange;
   border-radius: 5px;
   background-color: #fff;
   max-width: 100%;
