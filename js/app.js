@@ -13,11 +13,15 @@ $.ajax({
   }
 });
 
+//let employeeData;
+//
+//
+
 //Select class panel Node
 const allPanel = document.querySelectorAll('.panel');
+
 // Get first and last names and add them to "full-name" id
 // Appends all info form the data array to panels
-
 function appendPanelContent(data, index) {
   const fullName = document.querySelectorAll('#full-name')[index];
   fullName.textContent =
@@ -41,6 +45,10 @@ function appendPanelContent(data, index) {
   const birthday = data.dob;
   // found on line: 118
   getBottomData(phone, address, birthday);
+
+  // employees.map(employee => {
+  //
+  //   });
 }
 
 // Make first letter in name uppercase
