@@ -1,2 +1,2 @@
-# employee_directory
-   Static html website.
+# Employee Directory
+   - Static html website.
